@@ -1,6 +1,6 @@
 <div class="details">
+
   <div class="row">
-    
   </div>
 
   <div class="row">
@@ -38,11 +38,10 @@
   </div>
 
   <div class="row">
-    <div class="image">
-      <img src="{{ entry.image }}" style="height: 10px;"></img>
+    <div class="col-md-12 image">
+      <img src="{{ entry.image }}"></img>
     </div>
   </div>
-
 
   <div class="row">
 
@@ -54,35 +53,75 @@
       <h2>Availability</h2>
       <p>A nice pretty calendar</p>
 
-      <h2>Availability</h2>
-      <p>A nice map</p>
+      <h2>Map</h2>
 
-      <span ng-switch="entry.reviews.length" class="reviews-count">
+      <div class="map">
+        <div id="map-canvas"/>
+        <script type="text/javascript">
+          function initialize() {
+            var mapOptions = {
+              center: new google.maps.LatLng(-34.397, 150.644),
+              zoom: 12,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map-canvas"),
+                mapOptions);
+          }
+          $(initialize);
+
+        </script>
+      </div>
+
+      <div ng-switch="entry.reviews.length" class="reviews-count">
         <div ng-switch-when="0">
           No reviews
         </div>
-        <div ng-switch-when="1">
-          1 review
-        </div>
         <div ng-switch-default>
-          {{ entry.reviews.length }} reviews
+          Reviews ({{ entry.reviews.length }})
         </div>
-      </span>
+      </div>
 
-      <ul class="list-unstyled reviews">
-        <li ng-repeat="review in entry.reviews" class="review">
-          {{ review.text }}
-        </li>
-      </ul>
+      <div class="rating">
+        <p>
+          Overall rating 
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star-empty"></span>
+        </p>
+      </div>
+
+      <div class="list-unstyled reviews">
+        <div ng-repeat="review in entry.reviews" class="row review">
+
+          <div class="col-md-2">
+            <p>nice picture of person</p>
+          </div>
+
+          <div class="col-md-10">
+            <div class="row review-date">
+              <div class="col-md-12">
+                {{ review.date_ago }}
+              </div>
+            </div>
+
+            <div class="row review-text">
+              <div class="col-md-12">
+                {{ review.text }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
-
 
     <div class="col-md-4">
 
       <div class="row">
         <div class="col-md-12">
-          <img src="{{ entry.image }}" style="width: 100%;"></img>
+          <img src="{{ entry.image }}" style="width: 100%;" class="main-image"></img>
         </div>
       </div>
 

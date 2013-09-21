@@ -43,8 +43,14 @@
   margin-left: 60px;
 }
 
+.entry-list .filter {
+  background-color: #eee;
+  margin: 10px 0;
+  padding: 0 0 15px 0;
+}
+
 .details .actions {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .details .price {
@@ -56,6 +62,30 @@ margin-top: 20px;
 .details .features span {
   margin: 10px 0;
   font-size: 20px;
+}
+
+.details .review-text * {
+  text-align: center;
+}
+
+.details .review-text {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.details .reviews-count {
+  font-size: 22px;
+}
+
+.details #map-canvas {
+  height: 300px;
+  width: 100%;
+}
+
+.details .main-image {
+  width: 100%;
 }
 
 footer {
