@@ -4,16 +4,19 @@
 
 
     <form class="form-inline imlookingfor" role="form" method="GET" action="#/search">
+
       <div class="form-group">
         I'm looking for
       </div>
-      <div class="form-group">
-        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-        <select>
-          <option>a Garden</option>
-          <option>a Garage</option>
-        </select>
-      </div>
+      <div class="btn-group">
+      <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+        a Garden <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">a Garden</a></li>
+        <li><a href="#">a Garage</a></li>
+      </ul>
+    </div>
       <div class="form-group">
         in
       </div>
