@@ -8,9 +8,15 @@
   "visibility" : "private",
   "size_area" : "40",
   "support" : "managed property",
+  "owner" : {
+    "name" : "Emma"
+  },
   "reviews" : [
     {
       "text" : "omg! this garden is lush!"
+    },
+    {
+      "text" : "I loved this garden a lot, perfect place to grow my vegetables"
     }
   ]
 }

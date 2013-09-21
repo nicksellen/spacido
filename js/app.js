@@ -17,6 +17,9 @@ angular.module('project', ['ng', 'ngResource']).
       when('/details/:slug', { controller: DetailsController, templateUrl: 'details.html'}).
       otherwise({redirectTo:'/'});
   });
+
+function IndexCtrl($scope) {
+}
  
 function ListCtrl($scope, Entries) {
   $scope.entries = Entries.query();

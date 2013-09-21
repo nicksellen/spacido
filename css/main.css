@@ -22,3 +22,44 @@
 .navbar {
   margin-bottom: 0px;
 }
+
+.findyourspace {
+  background: no-repeat url("/images/bg.jpg");
+  height: 600px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.findyourspace h1 {
+  font-size: 80px;
+  color: #fff;
+  margin: 100px 80px;
+}
+
+.findyourspace .imlookingfor {
+  padding: 20px;
+  color: #fff;
+  font-size: 28px;
+  margin-left: 60px;
+}
+
+.details .actions {
+margin-top: 20px;
+}
+
+.details .price {
+  display: block;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.details .features span {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}

@@ -1,4 +1,107 @@
-<h1>details for {{ entry.name }}!</h1>
+<div class="details">
+  <div class="row">
+    
+  </div>
 
-<p>{{ entry.description }}</p>
-<img style="width: 400px;" src="{{ entry.image }}"></img>
+  <div class="row">
+
+    <div class="col-md-6">
+      
+      <div class="row">
+        <div class="col-md-12">
+          <h1>{{ entry.name }}</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <span>{{ entry.location_name }}</span>
+          - <span>{{ entry.size_area }}</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <ul class="pull-right actions">
+        <button type="button" class="btn btn-default btn-lg">Add to wish list</button>
+        <button type="button" class="btn btn-success btn-lg">Book now</button>
+      </ul>
+    </div>
+
+    <div class="col-md-1">
+      <div class="pull-right">
+        <span class="price">{{ entry.price }}&euro;</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="image">
+      <img src="{{ entry.image }}" style="height: 10px;"></img>
+    </div>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-md-8">
+
+      <h2>Description</h2>
+      {{ entry.description }}
+
+      <h2>Availability</h2>
+      <p>A nice pretty calendar</p>
+
+      <h2>Availability</h2>
+      <p>A nice map</p>
+
+      <span ng-switch="entry.reviews.length" class="reviews-count">
+        <div ng-switch-when="0">
+          No reviews
+        </div>
+        <div ng-switch-when="1">
+          1 review
+        </div>
+        <div ng-switch-default>
+          {{ entry.reviews.length }} reviews
+        </div>
+      </span>
+
+      <ul class="list-unstyled reviews">
+        <li ng-repeat="review in entry.reviews" class="review">
+          {{ review.text }}
+        </li>
+      </ul>
+
+    </div>
+
+
+    <div class="col-md-4">
+
+      <div class="row">
+        <div class="col-md-12">
+          <img src="{{ entry.image }}" style="width: 100%;"></img>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <span>{{ entry.owner.name }}</span><br />
+          <button type="button" class="btn btn-primary">Contact</button><br />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 features">
+          <span class="glyphicon glyphicon-home"> {{ entry.visibility }}</span><br />
+          <span class="glyphicon glyphicon-user"> {{ entry.support }}</span><br />
+          <span class="glyphicon glyphicon-wrench"> {{ entry.equipment }}</span><br />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
