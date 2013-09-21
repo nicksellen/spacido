@@ -1,0 +1,192 @@
+<div class="row">
+  <div class="col-md-12">
+    <form class="form-inline imlookingfor" role="form">
+      <div class="form-group">
+        I'm looking for
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+        <select>
+          <option>a Garden</option>
+          <option>a Garage</option>
+        </select>
+      </div>
+      <div class="form-group">
+        in
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword2">Password</label>
+        <input type="text" class="form-control input-sm" id="exampleInputPassword2" placeholder="Berlin, Germany">
+      </div>
+      <button type="submit" class="btn btn-primary btn-xs">search</button>
+    </form>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-md-3 filter filter-map">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="map" style="width: 100%; height: 200px; border: 1px solid #000; overflow: hidden;">
+          <img src="http://cdn.theunlockr.com/wp-content/uploads/2010/03/Google-Maps.png"></img>
+        </div>
+      </div>
+    </div>
+
+    <div class="row filter filter-price">
+      <div class="col-md-12">
+        <h3>Price per season</h3>
+        <input type="range" name="points" min="1" max="10">
+      </div>
+    </div>
+
+    <div class="row filter filter-size">
+      <div class="col-md-12">
+        <h3>Size</h3>
+        <input type="range" name="points" min="1" max="10">
+      </div>
+    </div>
+
+    <div class="row filter filter-visibility">
+      <div class="col-md-12">
+        <h3>Type</h3>
+        <label class="radio-inline">
+          <input type="radio" name="visibility" id="visibility-private" value="private"> Private
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="visibility" id="visibility-business" value="business"> Business
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="visibility" id="visibility-either" value="either"> Either
+        </label>
+      </div>
+    </div>
+
+    <div class="row ilter filter-support">
+      <div class="col-md-12">
+        <h3>Supported?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="support" id="support-yes" value="private"> Support possible
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="support" id="support-no" value="business"> Without support
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="support" id="support-either" value="either"> Either
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ilter filter-equipment">
+      <div class="col-md-12">
+
+        <h3>Equipment</h3>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            3D printer
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            Wood cutting thing
+          </label>
+        </div>
+
+
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            Sewing machine
+          </label>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-9 entries">
+
+    <div class="row">
+      <div class="col-md-8">
+        <span class="result-count" ng-switch="entries.length">
+          <span ng-switch-when="0">There are no entries in Berlin</span>
+          <span ng-switch-when="1">There is 1 entry in Berlin</span>
+          <span ng-switch-default>There are {{ entries.length }} entries in Berlin</span>
+        </span>
+      </div>
+      <div class="col-md-4">
+        <div class="dropdown pull-right">
+          <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+            Sort by <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            <li><a role="menuitem" href="#">Price: Low to high</a></li>
+            <li><a role="menuitem" href="#">Distance</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <ul class="list-unstyled">
+      <li ng-repeat="entry in entries" class="entry">
+        <div class="row">
+          <div class="col-md-3">
+            <img style="width: 100%;" src="{{ entry.image }}"></img>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-2">
+                <img style="width: 100%; " src="{{ entry.image }}"></img>
+              </div>
+              <div class="col-md-6">
+                <a class="name" href="#/details/{{ entry.slug }}">{{ entry.name }}</a><br />
+                <span class="size">{{ entry.location_name }}</span> <span>{{ entry.size_area }}</span><br />
+              </div>
+              <div class="col-md-4">
+                <div class="pull-right">
+                  <span class="price">{{ entry.price }}&euro;</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <span class="visibility">{{ entry.visibility }}</span>
+
+                <span class="support">{{ entry.support }}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+
+                <span ng-switch="entry.reviews.length" class="reviews">
+                  <span ng-switch-when="0">No reviews</span>
+                  <span ng-switch-when="1">1 review</span>
+                  <span ng-switch-default>{{ entry.reviews.length }} reviews</span>
+                </span>
+
+              </div>
+              <div class="col-md-9">
+                <ul class="pull-right actions">
+                  <button type="button" class="btn btn-primary btn-xs">Add to wish list</button>
+                  <button type="button" class="btn btn-default btn-xs">Details</button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</row>

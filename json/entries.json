@@ -1,0 +1,51 @@
+[
+{
+    "slug" : "a-space",
+    "name" : "Woodworking workshop",
+    "description" : "A lovely space",
+    "image" : "http://upload.wikimedia.org/wikipedia/commons/c/c2/EWM_shop_2007.jpg",
+    "reviews" : [],
+    "price" : "310"
+  },
+{
+  "slug" : "another-space",
+  "name" : "Metalwork space",
+  "description" : "Another lovely space",
+  "image" : "http://www.timber-workshops.co.uk/wp-content/uploads/2013/03/wood-working-workshops.jpg",
+  "reviews" : [],
+  "price" : "500"
+},
+{
+  "slug" : "garden",
+  "name" : "Beautiful quiet garden",
+  "description" : "it's so pretty, with flowers and everything",
+  "image" : "http://www.businessballs.com/images/garden_pics/japanese_garden5.jpg",
+  "price" : "800",
+  "location_name" : "Potsdam, Germany",
+  "visibility" : "private",
+  "size_area" : "40",
+  "support" : "managed property",
+  "reviews" : [
+    {
+      "text" : "omg! this garden is lush!"
+    }
+  ]
+}
+,
+{
+  "slug" : "garden2",
+  "name" : "Pretty garden",
+  "description" : "it's so pretty, with flowers and everything",
+  "image" : "http://upload.wikimedia.org/wikipedia/commons/2/27/Butchart_gardens.JPG",
+  "price" : "800",
+  "location_name" : "Potsdam, Germany",
+  "visibility" : "private",
+  "size_area" : "40",
+  "support" : "managed property",
+  "reviews" : [
+    {
+      "text" : "omg! this garden is lush!"
+    }
+  ]
+}
+]

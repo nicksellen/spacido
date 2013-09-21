@@ -1,0 +1,24 @@
+#main {
+  /*margin-top: 60px;*/
+}
+
+.entries .price {
+  font-size: 28px;
+  font-weight: strong;
+}
+
+.entries .name {
+  font-size: 22px;
+}
+
+.entries li.entry {
+  margin: 20px 0;
+}
+
+.imlookingfor {
+  margin: 20px 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}

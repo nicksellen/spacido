@@ -1,0 +1,16 @@
+{
+  "slug" : "garden",
+  "name" : "Beautiful quiet garden",
+  "description" : "it's so pretty, with flowers and everything",
+  "image" : "http://www.businessballs.com/images/garden_pics/japanese_garden5.jpg",
+  "price" : "800",
+  "location_name" : "Potsdam, Germany",
+  "visibility" : "private",
+  "size_area" : "40",
+  "support" : "managed property",
+  "reviews" : [
+    {
+      "text" : "omg! this garden is lush!"
+    }
+  ]
+}
