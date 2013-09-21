@@ -1,1 +1,23 @@
-{"slug":"shared-for-2-days","categories":["rehearsal"],"name":"Shared for 2 days","description":"","location_name":"Dorotheenstr. 12, 10117 Berlin","size_area":60,"price":180,"owner":{"name":""},"reviews":[],"support":"managed","visibility":"private","image":"/json/entry/images/shared-for-2-days.jpg","image_thumb":"/json/entry/images/shared-for-2-days_thumb.jpg","image_owner":"/json/entry/images/shared-for-2-days_owner.jpg"}
+{
+  "slug": "shared-for-2-days",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Shared for 2 days",
+  "description": "",
+  "location_name": "Dorotheenstr. 12, 10117 Berlin",
+  "size_area": 60,
+  "price": 180,
+  "owner": {
+    "name": ""
+  },
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": true,
+  "equipment": true,
+  "image": "/json/entry/images/shared-for-2-days.jpg",
+  "image_thumb": "/json/entry/images/shared-for-2-days_thumb.jpg",
+  "image_owner": "/json/entry/images/shared-for-2-days_owner.jpg"
+}

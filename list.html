@@ -164,9 +164,38 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <span class="visibility">{{ entry.visibility }}</span>
 
-                  <span class="support">{{ entry.support }}</span>
+                  <span class="public">
+                    <span ng-show="entry.public">
+                      <span class="glyphicon glyphicon-user"></span>
+                      public!
+                    </span>
+                    <span ng-hide="entry.public">
+                      <span class="glyphicon glyphicon-lock"></span>
+                      private :(
+                    </span>
+                  </div>
+
+                  <span class="support">
+                    <span ng-show="entry.support">
+                      <span class="glyphicon glyphicon-ok"></span>
+                      support!
+                    </span>
+                    <span ng-hide="entry.support">
+                      <span class="glyphicon glyphicon-remove"></span>
+                      no support :(
+                    </span>
+                  </span>
+
+                  <span class="equipment">
+                    <span ng-show="entry.equipment">
+                      equipment!
+                    </span>
+                    <span ng-hide="entry.equipment">
+                      no equipment :(
+                    </span>
+                  </span>
+
                 </div>
               </div>
               <div class="row">

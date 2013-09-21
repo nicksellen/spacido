@@ -1,1 +1,23 @@
-{"slug":"best-rehearsal-room","categories":["rehearsal"],"name":"Best rehearsal room","description":"","location_name":"Invalidenstr. 117, 10115 Berlin","size_area":10,"price":5,"owner":{"name":""},"reviews":[],"support":"managed","visibility":"private","image":"/json/entry/images/best-rehearsal-room.jpg","image_thumb":"/json/entry/images/best-rehearsal-room_thumb.jpg","image_owner":"/json/entry/images/best-rehearsal-room_owner.jpg"}
+{
+  "slug": "best-rehearsal-room",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Best rehearsal room",
+  "description": "",
+  "location_name": "Invalidenstr. 117, 10115 Berlin",
+  "size_area": 10,
+  "price": 5,
+  "owner": {
+    "name": ""
+  },
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": false,
+  "equipment": false,
+  "image": "/json/entry/images/best-rehearsal-room.jpg",
+  "image_thumb": "/json/entry/images/best-rehearsal-room_thumb.jpg",
+  "image_owner": "/json/entry/images/best-rehearsal-room_owner.jpg"
+}

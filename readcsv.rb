@@ -21,12 +21,15 @@ CSV.foreach('Liste rehearsal.csv', :col_sep => ';', :encoding => Encoding::ISO_8
   data['price'] = fields['price'][/[0-9]+/].to_i
   data['owner'] = { :name => ''}
   data['reviews'] = []
-  data['support'] = 'managed'
-  data['visibility'] = 'private'
+
+  data['support'] = rand(2) == 0
+  data['public'] = rand(2) == 0 
+  data['equipment'] = rand(2) == 0 
+
   data['image'] = "/json/entry/images/#{data['slug']}.jpg"
   data['image_thumb'] = "/json/entry/images/#{data['slug']}_thumb.jpg" 
   data['image_owner'] = "/json/entry/images/#{data['slug']}_owner.jpg" 
-  json = JSON.dump(data)
+  json = JSON.pretty_generate(data)
   File.open("json/entry/#{data['slug']}.json",'w+') { |f| f << json }
   things << JSON.dump(data)
 end

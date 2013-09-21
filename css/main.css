@@ -2,6 +2,10 @@
   /*margin-top: 60px;*/
 }
 
+#logo img {
+  height: 100px;
+}
+
 .entries .price {
   font-size: 28px;
   font-weight: strong;
@@ -93,3 +97,28 @@ footer {
   padding: 20px 0;
   border-top: 1px solid #eee;
 }
+
+/* link blue */
+a {
+  color: #1FA09C;
+}
+
+a:active, a:hover {
+  color: #58C2DB;
+}
+
+.btn-primary {
+  background-color: #1FA09C;
+  border-color: #1FA09C;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open 
+.dropdown-toggle.btn-primary {  
+  background-color: #58C2DB;
+  border-color: #58C2DB;
+}
+

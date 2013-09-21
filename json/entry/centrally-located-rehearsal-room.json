@@ -1,1 +1,23 @@
-{"slug":"centrally-located-rehearsal-room","categories":["rehearsal"],"name":"Centrally located rehearsal room","description":"","location_name":"Warschauer Stra§e 58, 10245 Berlin","size_area":24,"price":380,"owner":{"name":""},"reviews":[],"support":"managed","visibility":"private","image":"/json/entry/images/centrally-located-rehearsal-room.jpg","image_thumb":"/json/entry/images/centrally-located-rehearsal-room_thumb.jpg","image_owner":"/json/entry/images/centrally-located-rehearsal-room_owner.jpg"}
+{
+  "slug": "centrally-located-rehearsal-room",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Centrally located rehearsal room",
+  "description": "",
+  "location_name": "Warschauer Stra§e 58, 10245 Berlin",
+  "size_area": 24,
+  "price": 380,
+  "owner": {
+    "name": ""
+  },
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": false,
+  "equipment": false,
+  "image": "/json/entry/images/centrally-located-rehearsal-room.jpg",
+  "image_thumb": "/json/entry/images/centrally-located-rehearsal-room_thumb.jpg",
+  "image_owner": "/json/entry/images/centrally-located-rehearsal-room_owner.jpg"
+}
