@@ -40,7 +40,8 @@
       <div class="row filter filter-price">
         <div class="col-md-12">
           <h3>Price per season</h3>
-          <input type="range" name="points" min="1" max="10">
+          <input type="range" name="points" min="1" max="800" ng-model="sliderVal.first">
+          {{sliderVal.first}}
         </div>
       </div>
 
@@ -134,15 +135,14 @@
               Sort by <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li><a role="menuitem" href="#">Price: Low to high</a></li>
+              <li><a role="menuitem" href="" ng-click="predicate = '-price'; reverse=!reverse">Price</a></li>
               <li><a role="menuitem" href="#">Distance</a></li>
             </ul>
           </div>
         </div>
       </div>
-
       <ul class="list-unstyled">
-        <li ng-repeat="entry in entries" class="entry">
+        <li ng-repeat="entry in entries | filter:greaterThanNum | orderBy:predicate:reverse" class="entry">
           <div class="row">
             <div class="col-md-3">
               <img style="width: 100%;" src="{{ entry.image }}"></img>

@@ -1,4 +1,4 @@
-angular.module('project', ['ng', 'ngResource']).
+angular.module('project', ['ng', 'ngResource', 'ui.slider']).
 
   factory('Entries', function($resource) {
     return $resource(
@@ -23,6 +23,12 @@ function IndexCtrl($scope) {
  
 function ListCtrl($scope, Entries) {
   $scope.entries = Entries.query();
+  $scope.predicate = '-price';
+  $scope.sliderVal = {first: 800}
+  $scope.greaterThanNum = function(expected) {
+    return expected.price <= $scope.sliderVal.first;
+  };
+
   $scope.count = function() { return $scope.entries.length; };
 }
  
