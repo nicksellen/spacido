@@ -7,15 +7,17 @@
   "description": "",
   "location_name": "Stralauer Allee 3, 10245 Berlin",
   "size_area": 250,
-  "price": 520,
+  "price": 8,
   "owner": {
     "name": ""
   },
+  "rating": 3,
   "reviews": [
-
+    {
+    }
   ],
-  "support": false,
-  "public": false,
+  "support": true,
+  "public": true,
   "equipment": true,
   "image": "/json/entry/images/nhow-hotel-studio.jpg",
   "image_thumb": "/json/entry/images/nhow-hotel-studio_thumb.jpg",

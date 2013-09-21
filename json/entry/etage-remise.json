@@ -7,14 +7,15 @@
   "description": "",
   "location_name": "Waldemarstr. 39, 10999 Berlin",
   "size_area": 55,
-  "price": 35,
+  "price": 6,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
 
   ],
-  "support": false,
+  "support": true,
   "public": false,
   "equipment": false,
   "image": "/json/entry/images/etage-remise.jpg",

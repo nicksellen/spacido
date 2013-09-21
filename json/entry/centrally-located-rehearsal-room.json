@@ -7,15 +7,21 @@
   "description": "",
   "location_name": "Warschauer Stra§e 58, 10245 Berlin",
   "size_area": 24,
-  "price": 380,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": true,
-  "public": false,
+  "support": false,
+  "public": true,
   "equipment": false,
   "image": "/json/entry/images/centrally-located-rehearsal-room.jpg",
   "image_thumb": "/json/entry/images/centrally-located-rehearsal-room_thumb.jpg",

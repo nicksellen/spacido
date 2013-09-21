@@ -7,14 +7,22 @@
   "description": "",
   "location_name": "Lneburger Stra§e, 10557  Berlin",
   "size_area": 50,
-  "price": 110,
+  "price": 6,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": true,
+  "support": false,
   "public": false,
   "equipment": false,
   "image": "/json/entry/images/rainbow-rehearsal.jpg",

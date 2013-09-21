@@ -3,11 +3,11 @@
 }
 
 #logo img {
-  height: 100px;
+  height: 80px;
 }
 
 .entries .price {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: strong;
 }
 
@@ -17,6 +17,49 @@
 
 .entries li.entry {
   margin: 20px 0;
+}
+
+.entries .public,
+.entries .support,
+.entries .equipment {
+  padding-right: 5px;
+  color: #333;
+}
+
+.entries .rating {
+  color: #ead007;
+}
+
+.entries .public .glyphicon {
+  color: #4a4;
+}
+
+.entries .support .glyphicon {
+  color: #4D6EC7;
+}
+
+.entries .equipment .glyphicon {
+  color: purple;
+}
+
+.entries .entry-headline {
+  padding-left: 20px;
+}
+
+.entries .main-image {
+  overflow: hidden;
+  width: 200px;
+  height: 120px;
+}
+
+.entries .main-image img {
+  width: 250px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.entries .entry-except-image > .row {
+  margin-bottom: 10px;
 }
 
 .imlookingfor {
@@ -47,10 +90,50 @@
   margin-left: 60px;
 }
 
+.entry-list .imlookingfor {
+  font-size: 18px;
+  margin: 30px 0;
+  margin-left: 50px;
+}
+
+.entry-list .imlookingfor button[type=submit] {
+  letter-spacing: 2px;
+}
+
+button[type=submit] {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.utility-buttons button,
+.entry-list .actions button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .entry-list .filter {
-  background-color: #eee;
+  background-color: #f5f5f5;
   margin: 10px 0;
   padding: 0 0 15px 0;
+}
+
+.entry-list .filter h3 {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.entry-list .actions {
+  position: absolute;
+  top: 16px;
+  left: 120px;
+}
+
+.utility-buttons {
+  margin-top: 38px;
+}
+
+.entry-list .filter-map #map {
+  margin-top: 15px;
 }
 
 .details .actions {

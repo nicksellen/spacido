@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="project">  
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
     <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
 
@@ -9,10 +11,12 @@
     <script src="/js/angular-resource.min.js"></script>
     <script src="/bootstrap/bootstrap.min.js"></script>
     <script src="/js/app.js"></script>
+
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0XGlTvjI98S2we9mTOz7rnYrHHJNYLqw&sensor=true">
     </script>
-    <script type="text/javascript" src="/js/slider.js"></script>  
+
+    <script type="text/javascript" src="/js/slider.js"></script> 
   </head>
   <body>
 
@@ -25,33 +29,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a id="logo" class="navbar-brand" href="#"><img src="/images/simplerfacet.svg" alt="Spacido"></img></a>
+          <a id="logo" class="navbar-brand" href="#"><img src="/images/logo.svg" alt="Spacido"></img></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav"></ul>
           <div id="user"></div>
+          <!--
           <ul class="nav navbar-nav pull-right">
-            <li class="active-off"><a href="#">Login</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Signup</a></li>
+            <li>
+              <button type="submit" class="btn btn-primary btn-sm">List your space</button>
             </li>
           </ul>
+        -->
+          <div class="pull-right utility-buttons">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">Login</button>
+              <button type="button" class="btn btn-default">Signup</button>
+            </div>
+
+            <button type="button" class="btn btn-primary">List your space</button>
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="container" id="main" ng-view>
-    </div>
+    <div class="container" id="main" ng-view></div>
 
+    <!--
     <footer>
       <div class="row">
         <div class="col-md-4">
@@ -63,6 +69,7 @@
         </div>
       </div>
     </footer>
+    -->
 
   </body>
 </html>

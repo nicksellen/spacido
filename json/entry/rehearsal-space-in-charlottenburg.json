@@ -7,16 +7,17 @@
   "description": "",
   "location_name": "Sophie-Charlotten-Str. 107, 14059 Berlin",
   "size_area": 20,
-  "price": 10,
+  "price": 7,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
 
   ],
   "support": false,
-  "public": true,
-  "equipment": false,
+  "public": false,
+  "equipment": true,
   "image": "/json/entry/images/rehearsal-space-in-charlottenburg.jpg",
   "image_thumb": "/json/entry/images/rehearsal-space-in-charlottenburg_thumb.jpg",
   "image_owner": "/json/entry/images/rehearsal-space-in-charlottenburg_owner.jpg"

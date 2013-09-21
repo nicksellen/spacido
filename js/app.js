@@ -24,12 +24,19 @@ function IndexCtrl($scope) {
 function ListCtrl($scope, Entries) {
   $scope.entries = Entries.query();
   $scope.predicate = '-price';
-  $scope.sliderVal = {first: 800}
+  $scope.sliderVal = {first: 30}
   $scope.greaterThanNum = function(expected) {
     return expected.price <= $scope.sliderVal.first;
   };
 
   $scope.count = function() { return $scope.entries.length; };
+
+  $scope.range = function(min, max) {
+    var input = [];
+    for (var i=min; i<=max; i++) { input.push(i) };
+    return input;
+  };
+
 }
  
 function DetailsController($scope, $location, $routeParams, Entry) {

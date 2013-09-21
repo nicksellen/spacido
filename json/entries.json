@@ -8,16 +8,17 @@
   "description": "",
   "location_name": "Invalidenstr. 117, 10115 Berlin",
   "size_area": 10,
-  "price": 5,
+  "price": 10,
   "owner": {
     "name": ""
   },
+  "rating": 3,
   "reviews": [
 
   ],
-  "support": false,
-  "public": false,
-  "equipment": false,
+  "support": true,
+  "public": true,
+  "equipment": true,
   "image": "/json/entry/images/best-rehearsal-room.jpg",
   "image_thumb": "/json/entry/images/best-rehearsal-room_thumb.jpg",
   "image_owner": "/json/entry/images/best-rehearsal-room_owner.jpg"
@@ -31,15 +32,21 @@
   "description": "",
   "location_name": "Warschauer Stra§e 58, 10245 Berlin",
   "size_area": 24,
-  "price": 380,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": true,
-  "public": false,
+  "support": false,
+  "public": true,
   "equipment": false,
   "image": "/json/entry/images/centrally-located-rehearsal-room.jpg",
   "image_thumb": "/json/entry/images/centrally-located-rehearsal-room_thumb.jpg",
@@ -54,14 +61,15 @@
   "description": "",
   "location_name": "Waldemarstr. 39, 10999 Berlin",
   "size_area": 55,
-  "price": 35,
+  "price": 6,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
 
   ],
-  "support": false,
+  "support": true,
   "public": false,
   "equipment": false,
   "image": "/json/entry/images/etage-remise.jpg",
@@ -77,15 +85,17 @@
   "description": "",
   "location_name": "Stralauer Allee 3, 10245 Berlin",
   "size_area": 250,
-  "price": 520,
+  "price": 8,
   "owner": {
     "name": ""
   },
+  "rating": 3,
   "reviews": [
-
+    {
+    }
   ],
-  "support": false,
-  "public": false,
+  "support": true,
+  "public": true,
   "equipment": true,
   "image": "/json/entry/images/nhow-hotel-studio.jpg",
   "image_thumb": "/json/entry/images/nhow-hotel-studio_thumb.jpg",
@@ -100,15 +110,16 @@
   "description": "",
   "location_name": "Tiniusstr. 2, 13089 Berlin",
   "size_area": 25,
-  "price": 150,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 3,
   "reviews": [
 
   ],
-  "support": true,
-  "public": false,
+  "support": false,
+  "public": true,
   "equipment": true,
   "image": "/json/entry/images/nice-rehearsal-room.jpg",
   "image_thumb": "/json/entry/images/nice-rehearsal-room_thumb.jpg",
@@ -123,14 +134,22 @@
   "description": "",
   "location_name": "Lneburger Stra§e, 10557  Berlin",
   "size_area": 50,
-  "price": 110,
+  "price": 6,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": true,
+  "support": false,
   "public": false,
   "equipment": false,
   "image": "/json/entry/images/rainbow-rehearsal.jpg",
@@ -146,16 +165,24 @@
   "description": "",
   "location_name": "Steintrgerweg 23, 12351 Berlin",
   "size_area": 35,
-  "price": 250,
+  "price": 10,
   "owner": {
     "name": ""
   },
+  "rating": 4,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": false,
-  "public": false,
-  "equipment": true,
+  "support": true,
+  "public": true,
+  "equipment": false,
   "image": "/json/entry/images/rehearsal-room-in-bunker.jpg",
   "image_thumb": "/json/entry/images/rehearsal-room-in-bunker_thumb.jpg",
   "image_owner": "/json/entry/images/rehearsal-room-in-bunker_owner.jpg"
@@ -169,16 +196,18 @@
   "description": "",
   "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",
   "size_area": 60,
-  "price": 50,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    }
   ],
   "support": true,
   "public": false,
-  "equipment": false,
+  "equipment": true,
   "image": "/json/entry/images/rehearsal-room-in-shared-arttraktiv.jpg",
   "image_thumb": "/json/entry/images/rehearsal-room-in-shared-arttraktiv_thumb.jpg",
   "image_owner": "/json/entry/images/rehearsal-room-in-shared-arttraktiv_owner.jpg"
@@ -192,16 +221,17 @@
   "description": "",
   "location_name": "Sophie-Charlotten-Str. 107, 14059 Berlin",
   "size_area": 20,
-  "price": 10,
+  "price": 7,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
 
   ],
   "support": false,
-  "public": true,
-  "equipment": false,
+  "public": false,
+  "equipment": true,
   "image": "/json/entry/images/rehearsal-space-in-charlottenburg.jpg",
   "image_thumb": "/json/entry/images/rehearsal-space-in-charlottenburg_thumb.jpg",
   "image_owner": "/json/entry/images/rehearsal-space-in-charlottenburg_owner.jpg"
@@ -215,15 +245,21 @@
   "description": "",
   "location_name": "Dorotheenstr. 12, 10117 Berlin",
   "size_area": 60,
-  "price": 180,
+  "price": 10,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": true,
-  "public": true,
+  "support": false,
+  "public": false,
   "equipment": true,
   "image": "/json/entry/images/shared-for-2-days.jpg",
   "image_thumb": "/json/entry/images/shared-for-2-days_thumb.jpg",
@@ -238,16 +274,22 @@
   "description": "",
   "location_name": "Hauptstra§e 18, 10317 Berlin",
   "size_area": 45,
-  "price": 100,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    }
   ],
   "support": false,
-  "public": false,
-  "equipment": false,
+  "public": true,
+  "equipment": true,
   "image": "/json/entry/images/sunny-rehearsal-room-near-ostkreuz.jpg",
   "image_thumb": "/json/entry/images/sunny-rehearsal-room-near-ostkreuz_thumb.jpg",
   "image_owner": "/json/entry/images/sunny-rehearsal-room-near-ostkreuz_owner.jpg"

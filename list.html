@@ -2,26 +2,35 @@
 <div class="entry-list">
 
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-10 pull-right">
       <form class="form-inline imlookingfor" role="form">
         <div class="form-group">
-          I'm looking for
+          I'm looking for a
         </div>
-        <div class="form-group">
-          <label class="sr-only" for="exampleInputEmail2">Email address</label>
-          <select>
-            <option>a Garden</option>
-            <option>a Garage</option>
-          </select>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+            rehearsal room <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">garden</a></li>
+            <li><a href="#">kitchen</a></li>
+            <li><a href="#">studio</a></li>
+            <li><a href="#">workshop</a></li>
+            <li><a href="#">other</a></li>
+          </ul>
         </div>
+
         <div class="form-group">
           in
         </div>
         <div class="form-group">
           <label class="sr-only" for="exampleInputPassword2">Password</label>
-          <input type="text" class="form-control input-sm" id="exampleInputPassword2" placeholder="Berlin, Germany">
+          <input type="text" class="form-control input-lg" id="exampleInputPassword2" placeholder="Berlin, Germany">
         </div>
-        <button type="submit" class="btn btn-primary btn-xs">search</button>
+        <button type="submit" class="btn btn-primary btn-lg">search</button>
       </form>
     </div>
   </div>
@@ -31,17 +40,17 @@
     <div class="col-md-3">
       <div class="row filter filter-map">
         <div class="col-md-12">
-          <div id="map" style="width: 100%; height: 200px; border: 1px solid #000; overflow: hidden;">
-            <img src="http://cdn.theunlockr.com/wp-content/uploads/2010/03/Google-Maps.png"></img>
+          <div id="map">
+            <img src="/images/map.jpg"></img>
           </div>
         </div>
       </div>
 
       <div class="row filter filter-price">
         <div class="col-md-12">
-          <h3>Price per season</h3>
-          <input type="range" name="points" min="1" max="800" ng-model="sliderVal.first">
-          {{sliderVal.first}}
+          <h3>Price per hour</h3>
+          <input type="range" name="points" min="1" max="60" ng-model="sliderVal.first">
+          {{sliderVal.first}} &euro;
         </div>
       </div>
 
@@ -49,12 +58,13 @@
         <div class="col-md-12">
           <h3>Size</h3>
           <input type="range" name="points" min="1" max="10">
+          40 m&sup2;
         </div>
       </div>
 
       <div class="row filter filter-visibility">
         <div class="col-md-12">
-          <h3>Type</h3>
+          <h3>Owner</h3>
           <label class="radio-inline">
             <input type="radio" name="visibility" id="visibility-private" value="private"> Private
           </label>
@@ -69,15 +79,15 @@
 
       <div class="row filter filter-support">
         <div class="col-md-12">
-          <h3>Supported?</h3>
+          <h3>Assistance</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="support" id="support-yes" value="private"> Support possible
+              <input type="radio" name="support" id="support-yes" value="private"> Assistance available
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="support" id="support-no" value="business"> Without support
+              <input type="radio" name="support" id="support-no" value="business"> Without assistance
             </label>
           </div>
           <div class="radio">
@@ -92,26 +102,20 @@
         <div class="col-md-12">
 
           <h3>Equipment</h3>
-          <div class="checkbox">
+          
+          <div class="radio">
             <label>
-              <input type="checkbox" value="">
-              3D printer
+              <input type="radio" name="support" id="support-yes" value="private"> Equipment available
             </label>
           </div>
-
-          <div class="checkbox">
+          <div class="radio">
             <label>
-              <input type="checkbox" value="">
-              Wood cutting thing
+              <input type="radio" name="support" id="support-no" value="business"> Without equipment
             </label>
           </div>
-
-
-
-          <div class="checkbox">
+          <div class="radio">
             <label>
-              <input type="checkbox" value="">
-              Sewing machine
+              <input type="radio" name="support" id="support-either" value="either"> Either
             </label>
           </div>
 
@@ -123,11 +127,13 @@
 
       <div class="row">
         <div class="col-md-8">
-          <span class="result-count" ng-switch="entries.length">
-            <span ng-switch-when="0">There are no entries in Berlin</span>
-            <span ng-switch-when="1">There is 1 entry in Berlin</span>
-            <span ng-switch-default>There are {{ entries.length }} entries in Berlin</span>
-          </span>
+          <strong>
+            <span class="result-count" ng-switch="entries.length">
+              <span ng-switch-when="0">No spaces in Berlin</span>
+              <span ng-switch-when="1">1 space in Berlin</span>
+              <span ng-switch-default>{{ entries.length }} spaces in Berlin</span>
+            </span>
+          </strong>
         </div>
         <div class="col-md-4">
           <div class="dropdown pull-right">
@@ -145,61 +151,77 @@
         <li ng-repeat="entry in entries | filter:greaterThanNum | orderBy:predicate:reverse" class="entry">
           <div class="row">
             <div class="col-md-3">
-              <img style="width: 100%;" src="{{ entry.image }}"></img>
+              <div class="main-image">
+                <img src="{{ entry.image }}"></img>
+              </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 entry-except-image">
               <div class="row">
-                <div class="col-md-2">
-                  <img style="width: 100%; " src="{{ entry.image }}"></img>
+                <div class="col-md-1">
+                  <img class="owner-image" src="{{ entry.image_owner }}"></img>
                 </div>
-                <div class="col-md-6">
-                  <a class="name" href="#/details/{{ entry.slug }}">{{ entry.name }}</a><br />
-                  <span class="size">{{ entry.location_name }}</span> <span>{{ entry.size_area }}</span><br />
+                <div class="col-md-8">
+                  <div class="entry-headline">
+                    <a class="name" href="#/details/{{ entry.slug }}">{{ entry.name }}</a><br />
+                    <span class="size">{{ entry.location_name }}</span> <span>{{ entry.size_area }}</span><br />
+                  </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <div class="pull-right">
-                    <span class="price">{{ entry.price }}&euro;</span>
+
+                    <span class="price">{{ entry.price }}&euro;</span><br />
+                    <span class="price-unit">per hour</span>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-5">
 
                   <span class="public">
                     <span ng-show="entry.public">
                       <span class="glyphicon glyphicon-user"></span>
-                      public!
+                      Private
                     </span>
                     <span ng-hide="entry.public">
-                      <span class="glyphicon glyphicon-lock"></span>
-                      private :(
+                      <span class="glyphicon glyphicon-briefcase"></span>
+                      Business
                     </span>
-                  </div>
+                  </span>
 
                   <span class="support">
                     <span ng-show="entry.support">
-                      <span class="glyphicon glyphicon-ok"></span>
-                      support!
-                    </span>
-                    <span ng-hide="entry.support">
-                      <span class="glyphicon glyphicon-remove"></span>
-                      no support :(
+                      <span class="glyphicon glyphicon-plus"></span>
+                      Assistance available
                     </span>
                   </span>
 
+                  <span ng-hide="entry.public & entry.support & entry.equipment">
                   <span class="equipment">
                     <span ng-show="entry.equipment">
-                      equipment!
+                      <span class="glyphicon glyphicon-wrench"></span>
+                      Equipment available
                     </span>
-                    <span ng-hide="entry.equipment">
-                      no equipment :(
-                    </span>
+                  </span>
                   </span>
 
                 </div>
+                <div class="col-md-7">
+                  <ul class="pull-right actions">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default btn-sm">Add to wish list</button>
+                      <button type="button" class="btn btn-primary btn-sm">Details</button>
+                    </div>
+                  </ul>
+                </div>
+
               </div>
               <div class="row">
-                <div class="col-md-3">
+                
+                <div class="col-md-12">
+
+                  <span class="rating">
+                    <span ng-repeat="n in range(0, entry.rating - 1)" class="glyphicon glyphicon-star"></span><span ng-repeat="n in range(0, 5 - entry.rating - 1)" class="glyphicon glyphicon-star-empty"></span>
+                  </span>
 
                   <span ng-switch="entry.reviews.length" class="reviews">
                     <span ng-switch-when="0">No reviews</span>
@@ -207,12 +229,6 @@
                     <span ng-switch-default>{{ entry.reviews.length }} reviews</span>
                   </span>
 
-                </div>
-                <div class="col-md-9">
-                  <ul class="pull-right actions">
-                    <button type="button" class="btn btn-primary btn-xs">Add to wish list</button>
-                    <button type="button" class="btn btn-default btn-xs">Details</button>
-                  </ul>
                 </div>
               </div>
             </div>

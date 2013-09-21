@@ -7,16 +7,22 @@
   "description": "",
   "location_name": "Hauptstra§e 18, 10317 Berlin",
   "size_area": 45,
-  "price": 100,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    }
   ],
   "support": false,
-  "public": false,
-  "equipment": false,
+  "public": true,
+  "equipment": true,
   "image": "/json/entry/images/sunny-rehearsal-room-near-ostkreuz.jpg",
   "image_thumb": "/json/entry/images/sunny-rehearsal-room-near-ostkreuz_thumb.jpg",
   "image_owner": "/json/entry/images/sunny-rehearsal-room-near-ostkreuz_owner.jpg"

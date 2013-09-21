@@ -7,15 +7,21 @@
   "description": "",
   "location_name": "Dorotheenstr. 12, 10117 Berlin",
   "size_area": 60,
-  "price": 180,
+  "price": 10,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    },
+    {
+    },
+    {
+    }
   ],
-  "support": true,
-  "public": true,
+  "support": false,
+  "public": false,
   "equipment": true,
   "image": "/json/entry/images/shared-for-2-days.jpg",
   "image_thumb": "/json/entry/images/shared-for-2-days_thumb.jpg",

@@ -18,9 +18,16 @@ CSV.foreach('Liste rehearsal.csv', :col_sep => ';', :encoding => Encoding::ISO_8
   data['description'] = ''
   data['location_name'] = "#{fields['street']}, #{fields['zip']} #{fields['city']}"
   data['size_area'] = fields['size'][/[0-9]+/].to_i
-  data['price'] = fields['price'][/[0-9]+/].to_i
+  data['price'] = rand(8) + 5 #fields['price'][/[0-9]+/].to_i
   data['owner'] = { :name => ''}
-  data['reviews'] = []
+
+  data['rating'] = rand(3) + 3
+  reviews = []
+
+  rand(5).times { reviews << {} }
+
+  data['reviews'] = reviews
+
 
   data['support'] = rand(2) == 0
   data['public'] = rand(2) == 0 

@@ -7,16 +7,18 @@
   "description": "",
   "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",
   "size_area": 60,
-  "price": 50,
+  "price": 11,
   "owner": {
     "name": ""
   },
+  "rating": 5,
   "reviews": [
-
+    {
+    }
   ],
   "support": true,
   "public": false,
-  "equipment": false,
+  "equipment": true,
   "image": "/json/entry/images/rehearsal-room-in-shared-arttraktiv.jpg",
   "image_thumb": "/json/entry/images/rehearsal-room-in-shared-arttraktiv_thumb.jpg",
   "image_owner": "/json/entry/images/rehearsal-room-in-shared-arttraktiv_owner.jpg"
