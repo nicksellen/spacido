@@ -48,7 +48,7 @@
       </div>
 
       <h2>Availability</h2>
-      <p>A nice pretty calendar</p>
+      <img src="/images/cal3.png"></img>
 
       <h2>Map</h2>
 
@@ -57,8 +57,9 @@
         <script type="text/javascript">
           function initialize() {
             var mapOptions = {
-              center: new google.maps.LatLng(-34.397, 150.644),
-              zoom: 12,
+
+              center: new google.maps.LatLng(52.5, 13.3),
+              zoom: 18,
               mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             var map = new google.maps.Map(document.getElementById("map-canvas"),
@@ -68,6 +69,8 @@
 
         </script>
       </div>
+
+      <!--
 
       <div ng-switch="entry.reviews.length" class="reviews-count">
         <div ng-switch-when="0">
@@ -88,6 +91,8 @@
           <span class="glyphicon glyphicon-star-empty"></span>
         </p>
       </div>
+
+      -->
 
       <div class="list-unstyled reviews">
         <div ng-repeat="review in entry.reviews" class="row review">
@@ -125,7 +130,7 @@
       <div class="row">
         <div class="col-md-12">
           <span>{{ entry.owner.name }}</span><br />
-          <button type="button" class="btn btn-primary">Contact</button><br />
+          <button type="button" class="btn btn-primary btn-lg">CONTACT</button><br />
         </div>
       </div>
 
