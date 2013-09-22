@@ -15,9 +15,9 @@
   "reviews": [
 
   ],
-  "support": true,
+  "support": false,
   "public": true,
-  "equipment": true,
+  "equipment": false,
   "image": "/json/gardens/images/Beete.jpg",
   "image_owner": "/images/userpics/7400_101952086668171_2025766421_a.jpg"
 }

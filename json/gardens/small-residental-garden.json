@@ -1,0 +1,23 @@
+{
+  "slug": "small-residental-garden",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Small residential garden",
+  "description": "",
+  "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 3,
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": true,
+  "equipment": false,
+  "image": "/json/gardens/images/Gartenschaukel.jpg",
+  "image_owner": "/images/userpics/62131_859084830233_625923559_s.jpg"
+}

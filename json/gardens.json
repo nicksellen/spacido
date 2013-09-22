@@ -1,5 +1,51 @@
 [
 {
+  "slug": "community-growing-project",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Community growing project",
+  "description": "",
+  "location_name": "Tiniusstr. 2, 13089 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 3,
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": true,
+  "equipment": true,
+  "image": "/json/gardens/images/leeres grundstuck.jpg",
+  "image_owner": "/images/userpics/183920_10150240907156571_6637258_a.jpg"
+},
+{
+  "slug": "flower-garden",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Flower garden",
+  "description": "",
+  "location_name": "Warschauer Stra§e 58, 10245 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 5,
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": false,
+  "equipment": true,
+  "image": "/json/gardens/images/6813990669_ae7219f010_b.jpg",
+  "image_owner": "/images/userpics/183920_10150240907156571_6637258_a.jpg"
+},
+{
   "slug": "garden-with-open-kitchen",
   "categories": [
     "rehearsal"
@@ -12,12 +58,12 @@
   "owner": {
     "name": ""
   },
-  "rating": 3,
+  "rating": 4,
   "reviews": [
 
   ],
-  "support": true,
-  "public": true,
+  "support": false,
+  "public": false,
   "equipment": true,
   "image": "/json/gardens/images/garden 1.jpg",
   "image_owner": "/images/userpics/600961_613418352003971_333838602_a.jpg"
@@ -39,11 +85,57 @@
   "reviews": [
 
   ],
-  "support": true,
+  "support": false,
   "public": true,
-  "equipment": true,
+  "equipment": false,
   "image": "/json/gardens/images/Beete.jpg",
   "image_owner": "/images/userpics/7400_101952086668171_2025766421_a.jpg"
+},
+{
+  "slug": "large-greenhouse",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Large greenhouse",
+  "description": "",
+  "location_name": "Waldemarstr. 39, 10999 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 4,
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": false,
+  "equipment": true,
+  "image": "/json/gardens/images/garden house.jpg",
+  "image_owner": "/images/userpics/551593_10151029815972784_1417877249_a.jpg"
+},
+{
+  "slug": "large-undeveloped-area-for-growing",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Large undeveloped area for growing",
+  "description": "",
+  "location_name": "Stralauer Allee 3, 10245 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 4,
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": false,
+  "equipment": true,
+  "image": "/json/gardens/images/leeres grundstuck.jpg",
+  "image_owner": "/images/userpics/479851_10100157654326676_66280086_a.jpg"
 },
 {
   "slug": "Shared garden",
@@ -58,12 +150,12 @@
   "owner": {
     "name": ""
   },
-  "rating": 3,
+  "rating": 4,
   "reviews": [
 
   ],
   "support": true,
-  "public": true,
+  "public": false,
   "equipment": true,
   "image": "/json/gardens/images/2462309011_eb75bb5d6c_b.jpg",
   "image_owner": "/images/userpics/426222_10101646776987560_1754354624_a.jpg"
@@ -81,15 +173,38 @@
   "owner": {
     "name": ""
   },
+  "rating": 5,
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": false,
+  "equipment": true,
+  "image": "/json/gardens/images/1275257641_a79be53f39_o.jpg",
+  "image_owner": "/images/userpics/578824_10101115331793048_1961877179_s.jpg"
+},
+{
+  "slug": "small-residental-garden",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Small residential garden",
+  "description": "",
+  "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
   "rating": 3,
   "reviews": [
 
   ],
   "support": true,
   "public": true,
-  "equipment": true,
-  "image": "/json/gardens/images/1275257641_a79be53f39_o.jpg",
-  "image_owner": "/images/userpics/578824_10101115331793048_1961877179_s.jpg"
+  "equipment": false,
+  "image": "/json/gardens/images/Gartenschaukel.jpg",
+  "image_owner": "/images/userpics/62131_859084830233_625923559_s.jpg"
 },
 {
   "slug": "very-natural-garden-with-apples",
@@ -108,7 +223,7 @@
   "reviews": [
 
   ],
-  "support": true,
+  "support": false,
   "public": true,
   "equipment": true,
   "image": "/json/gardens/images/huge-garden.jpg",

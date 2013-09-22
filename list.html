@@ -169,8 +169,13 @@
                 <div class="col-md-3">
                   <div class="pull-right">
 
+
                     <span class="price">{{ entry.price }}&euro;</span><br />
-                    <span class="price-unit">per hour</span>
+
+                    <span class="price-unit" ng-switch="entryType">
+                      <span ng-switch-when="gardens">per season</span>
+                      <span ng-switch-default>per hour</span>
+                    </span>
                   </div>
                 </div>
               </div>

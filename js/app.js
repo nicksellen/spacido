@@ -23,6 +23,7 @@ function IndexCtrl($scope) {
  
 function ListCtrl($scope, $location, $routeParams, Entries) {
   console.log('listing things of type', $routeParams.type);
+  $scope.entryType = $routeParams.type;
   $scope.entries = Entries.query({ type: $routeParams.type });
   $scope.predicate = '-price';
   $scope.sliderVal = {first: 30}

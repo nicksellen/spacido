@@ -1,0 +1,23 @@
+{
+  "slug": "community-growing-project",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Community growing project",
+  "description": "",
+  "location_name": "Tiniusstr. 2, 13089 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 3,
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": true,
+  "equipment": true,
+  "image": "/json/gardens/images/leeres grundstuck.jpg",
+  "image_owner": "/images/userpics/183920_10150240907156571_6637258_a.jpg"
+}

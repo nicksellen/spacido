@@ -1,23 +1,23 @@
 {
-  "slug": "very-natural-garden-with-apples",
+  "slug": "large-undeveloped-area-for-growing",
   "categories": [
     "rehearsal"
   ],
-  "name": "Very natural garden with apples",
+  "name": "Large undeveloped area for growing",
   "description": "",
-  "location_name": "10557 Garden in Märchenland e.V. Rübezahlweg",
+  "location_name": "Stralauer Allee 3, 10245 Berlin",
   "size_area": 10,
   "price": 10,
   "owner": {
     "name": ""
   },
-  "rating": 3,
+  "rating": 4,
   "reviews": [
 
   ],
   "support": false,
-  "public": true,
+  "public": false,
   "equipment": true,
-  "image": "/json/gardens/images/huge-garden.jpg",
+  "image": "/json/gardens/images/leeres grundstuck.jpg",
   "image_owner": "/images/userpics/479851_10100157654326676_66280086_a.jpg"
 }

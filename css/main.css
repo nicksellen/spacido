@@ -117,6 +117,10 @@ button[type=submit] {
   padding: 0 0 15px 0;
 }
 
+.entry-list .price {
+  text-align: right;
+}
+
 .entry-list .filter h3 {
   font-size: 16px;
   margin: 15px 0;

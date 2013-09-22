@@ -1,0 +1,23 @@
+{
+  "slug": "large-greenhouse",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Large greenhouse",
+  "description": "",
+  "location_name": "Waldemarstr. 39, 10999 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 4,
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": false,
+  "equipment": true,
+  "image": "/json/gardens/images/garden house.jpg",
+  "image_owner": "/images/userpics/551593_10151029815972784_1417877249_a.jpg"
+}

@@ -11,12 +11,12 @@
   "owner": {
     "name": ""
   },
-  "rating": 3,
+  "rating": 4,
   "reviews": [
 
   ],
   "support": true,
-  "public": true,
+  "public": false,
   "equipment": true,
   "image": "/json/gardens/images/2462309011_eb75bb5d6c_b.jpg",
   "image_owner": "/images/userpics/426222_10101646776987560_1754354624_a.jpg"
