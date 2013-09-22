@@ -40,8 +40,17 @@
     <div class="col-md-3">
       <div class="row filter filter-map">
         <div class="col-md-12">
-          <div id="map">
-            <img src="/images/map.jpg"></img>
+          <div class="google-map"
+            center="position.coords"
+            zoom="zoomProperty" 
+            markers="markersProperty"
+            latitude="clickedLatitudeProperty"
+            longitude="clickedLongitudeProperty"
+            mark-click="false"
+            draggable="true"
+            fit="false"
+            events="eventsProperty"
+            style="height: 200px; width: 100%">
           </div>
         </div>
       </div>

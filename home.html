@@ -1,22 +1,23 @@
 <div class="row findyourspace">
-  <div class="col-md-12">
+  <div class="col-md-12" ng-init="value='garden'">
     <h1>Find your space!</h1>
 
 
-    <form class="form-inline imlookingfor" role="form" method="GET" action="#/search/gardens">
+    <form class="form-inline imlookingfor" role="form" method="GET" action="#/search/{{value}}">
 
       <div class="form-group">
         I'm looking for a
       </div>
       <div class="btn-group">
-        <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-          garden <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">garden</a></li>
-          <li><a href="#">garage</a></li>
-        </ul>
-      </div>
+      <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+        {{value}} <span class="caret"></span>
+      </button>
+
+      <ul class="dropdown-menu" role="menu">
+        <li><a id="link-1" href="" ng-click="value = 'garden'">garden</a></li>
+        <li><a id="link-2" href="" ng-click="value = 'garage'">garage</a></li>
+      </ul>
+    </div>
       <div class="form-group">
         in
       </div>
@@ -28,35 +29,4 @@
     </form>
 
   </div>
-</div>
-
-<div class="row">
-
-  <div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <h2>List your space</h2>
-        <p>Important Health benefits of going green: Living green is good for the mother earth and for your health too. it is not just beneficial for the planet, it does impact our lives too and most importantly our health. Being green involves things like buying whole foods, reducing the consumption of energy, changing our transportation habits</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <h2>Make something today</h2>
-        <p>How to Give your home a green makeover? It is time we save our planet for the future generations and this green revolution should begin from our homes. Going green is not a tumultuous or expensive task as you might be thinking.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <h2>Get the app</h2>
-        <p>What are the Solutions for a green life: Living green is in trend now. With time people are becoming aware of the importance of green life. If you have no idea about it and are wondering what is green life? Then, to answer your question, green life is a kind of life that is based on decisions.</p>
-      </div>
-    </div>
-  </div>
-
 </div>

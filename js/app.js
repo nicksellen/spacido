@@ -19,13 +19,67 @@ angular.module('project', ['ng', 'ngResource', 'ui.slider']).
   });
 
 function IndexCtrl($scope) {
+    $scope.spaceCat = [
+      {
+          "name": "rehearsal room"
+      },
+      {
+          "name": "garden"
+      },
+      {
+          "name": "kitchen"
+      },
+      {
+          "name": "studio"
+      },
+      {
+          "name": "workshop"
+      }
+  ]
 }
  
 function ListCtrl($scope, $location, $routeParams, Entries) {
   $scope.category = $routeParams.category;
   $scope.entries = Entries.query({ category: $routeParams.category });
+
+  /*$scope.entries = Entries.query(function (response) {
+      angular.forEach(response, function (item) {
+        console.log(item);
+        $scope.markersProperty.push({
+          latitude: parseFloat(item.lat),
+          longitude: parseFloat(item.lon)
+        });
+      });
+    });*/
+
+  angular.extend($scope, {
+
+      position: {
+        coords: {
+          latitude: 52.5,
+          longitude: 13.3
+        }
+      },
+
+      /** the initial center of the map */
+      centerProperty: {
+        latitude: 52,
+        longitude: 13
+      },
+
+      /** the initial zoom level of the map */
+      zoomProperty: 9,
+
+      /** list of markers to put in the map */
+      markersProperty: [ {
+        // latitude: 45,
+        // longitude: -74
+      }],
+
+    });
   $scope.predicate = '-price';
   $scope.sliderVal = {first: 30}
+
   $scope.greaterThanNum = function(expected) {
     return expected.price <= $scope.sliderVal.first;
   };
