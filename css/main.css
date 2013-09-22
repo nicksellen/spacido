@@ -30,15 +30,15 @@
   color: #ead007;
 }
 
-.entries .public .glyphicon {
+.public .glyphicon {
   color: #4a4;
 }
 
-.entries .support .glyphicon {
+.support .glyphicon {
   color: #4D6EC7;
 }
 
-.entries .equipment .glyphicon {
+.equipment .glyphicon {
   color: purple;
 }
 

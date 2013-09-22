@@ -39,7 +39,7 @@
 
   <div class="row">
     <div class="col-md-12 image">
-      <img src="{{ entry.image }}"></img>
+      <img src="{{ entry.image }}" style="width: 100%;" ></img>
     </div>
   </div>
 
@@ -121,7 +121,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <img src="{{ entry.image }}" style="width: 100%;" class="main-image"></img>
+          <img src="{{ entry.image_owner }}" style="width: 100%;" class="main-image"></img>
         </div>
       </div>
 
@@ -134,9 +134,32 @@
 
       <div class="row">
         <div class="col-md-12 features">
-          <span class="glyphicon glyphicon-home"> {{ entry.visibility }}</span><br />
-          <span class="glyphicon glyphicon-user"> {{ entry.support }}</span><br />
-          <span class="glyphicon glyphicon-wrench"> {{ entry.equipment }}</span><br />
+
+          <div class="public">
+            <span ng-show="entry.public">
+              <span class="glyphicon glyphicon-user"></span>
+              Private
+            </span>
+            <span ng-hide="entry.public">
+              <span class="glyphicon glyphicon-briefcase"></span>
+              Business
+            </span>
+          </div>
+
+          <div class="support">
+            <span ng-show="entry.support">
+              <span class="glyphicon glyphicon-plus"></span>
+              Assistance available
+            </span>
+          </div>
+
+          <div class="equipment">
+            <span ng-show="entry.equipment">
+              <span class="glyphicon glyphicon-wrench"></span>
+              Equipment available
+            </span>
+          </div>
+
         </div>
       </div>
 

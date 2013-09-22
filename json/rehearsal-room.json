@@ -1,9 +1,7 @@
 [
 {
   "slug": "best-rehearsal-room",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Best rehearsal room",
   "description": "",
   "location_name": "Invalidenstr. 117, 10115 Berlin",
@@ -25,9 +23,7 @@
 },
 {
   "slug": "centrally-located-rehearsal-room",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Centrally located rehearsal room",
   "description": "",
   "location_name": "Warschauer Stra§e 58, 10245 Berlin",
@@ -54,9 +50,7 @@
 },
 {
   "slug": "etage-remise",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Etage Remise",
   "description": "",
   "location_name": "Waldemarstr. 39, 10999 Berlin",
@@ -78,9 +72,7 @@
 },
 {
   "slug": "nhow-hotel-studio",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "nhow Hotel Studio",
   "description": "",
   "location_name": "Stralauer Allee 3, 10245 Berlin",
@@ -103,9 +95,7 @@
 },
 {
   "slug": "nice-rehearsal-room",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Nice rehearsal room",
   "description": "",
   "location_name": "Tiniusstr. 2, 13089 Berlin",
@@ -127,9 +117,7 @@
 },
 {
   "slug": "rainbow-rehearsal",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Rainbow rehearsal",
   "description": "",
   "location_name": "Lneburger Stra§e, 10557  Berlin",
@@ -158,9 +146,7 @@
 },
 {
   "slug": "rehearsal-room-in-bunker",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Rehearsal room in bunker",
   "description": "",
   "location_name": "Steintrgerweg 23, 12351 Berlin",
@@ -189,9 +175,7 @@
 },
 {
   "slug": "rehearsal-room-in-shared-arttraktiv",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Rehearsal room in shared ARTtraktiv",
   "description": "",
   "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",
@@ -214,9 +198,7 @@
 },
 {
   "slug": "rehearsal-space-in-charlottenburg",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Rehearsal space in Charlottenburg",
   "description": "",
   "location_name": "Sophie-Charlotten-Str. 107, 14059 Berlin",
@@ -238,9 +220,7 @@
 },
 {
   "slug": "shared-for-2-days",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Shared for 2 days",
   "description": "",
   "location_name": "Dorotheenstr. 12, 10117 Berlin",
@@ -267,9 +247,7 @@
 },
 {
   "slug": "sunny-rehearsal-room-near-ostkreuz",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "rehearsal-rooms",
   "name": "Sunny rehearsal room near Ostkreuz",
   "description": "",
   "location_name": "Hauptstra§e 18, 10317 Berlin",
