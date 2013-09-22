@@ -1,21 +1,33 @@
 <div class="row findyourspace">
-  <div class="col-md-12" ng-init="value='garden'">
+  <div class="col-md-12" ng-init="value='rehearsal-room'">
     <h1>Find your space!</h1>
 
 
-    <form class="form-inline imlookingfor" role="form" method="GET" action="#/search/{{value}}">
+    <form class="form-inline imlookingfor" role="form" method="GET" action="#/search/rehearsal-room">
 
       <div class="form-group">
         I'm looking for a
       </div>
       <div class="btn-group">
       <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-        {{value}} <span class="caret"></span>
+        rehearsal room <span class="caret"></span>
       </button>
 
       <ul class="dropdown-menu" role="menu">
+
+        <!--
         <li><a id="link-1" href="" ng-click="value = 'garden'">garden</a></li>
         <li><a id="link-2" href="" ng-click="value = 'garage'">garage</a></li>
+        -->
+
+
+        <li><a id="link-1" href="#" ng-click="value = 'rehearsal-room'">rehearsal room</a></li>
+        <li><a id="link-2" href="#" ng-click="value = 'garden'">kitchen</a></li>
+        <li><a href="#">kitchen</a></li>
+        <li><a href="#">studio</a></li>
+        <li><a href="#">workshop</a></li>
+        <li><a href="#">other</a></li>
+
       </ul>
     </div>
       <div class="form-group">

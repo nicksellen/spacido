@@ -2,20 +2,20 @@
 <div class="entry-list">
 
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-2" ng-init="value='rehearsal room'">
     </div>
     <div class="col-md-10 pull-right">
-      <form class="form-inline imlookingfor" role="form">
+      <form class="form-inline imlookingfor" role="form" method="get" action="#/search/garden">
         <div class="form-group">
           I'm looking for a
         </div>
 
         <div class="btn-group">
           <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-            rehearsal room <span class="caret"></span>
+            {{ value }} <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">garden</a></li>
+            <li><a ng-click="value = 'garden'">garden</a></li>
             <li><a href="#">kitchen</a></li>
             <li><a href="#">studio</a></li>
             <li><a href="#">workshop</a></li>
@@ -40,18 +40,7 @@
     <div class="col-md-3">
       <div class="row filter filter-map">
         <div class="col-md-12">
-          <div class="google-map"
-            center="position.coords"
-            zoom="zoomProperty" 
-            markers="markersProperty"
-            latitude="clickedLatitudeProperty"
-            longitude="clickedLongitudeProperty"
-            mark-click="false"
-            draggable="true"
-            fit="false"
-            events="eventsProperty"
-            style="height: 200px; width: 100%">
-          </div>
+          <img src="/images/map2.jpg" style="width: 100%; padding-top: 15px"></img>
         </div>
       </div>
 
@@ -81,7 +70,7 @@
             <input type="radio" name="visibility" id="visibility-business" value="business"> Business
           </label>
           <label class="radio-inline">
-            <input type="radio" name="visibility" id="visibility-either" value="either"> Either
+            <input type="radio" name="visibility" id="visibility-either" value="either" checked> Either
           </label>
         </div>
       </div>
@@ -101,7 +90,7 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="support" id="support-either" value="either"> Either
+              <input type="radio" name="support" id="support-either" value="either" checked> Either
             </label>
           </div>
         </div>
@@ -114,17 +103,17 @@
           
           <div class="radio">
             <label>
-              <input type="radio" name="support" id="support-yes" value="private"> Equipment available
+              <input type="radio" name="equipment" id="support-yes" value="private"> Equipment available
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="support" id="support-no" value="business"> Without equipment
+              <input type="radio" name="equipment" id="support-no" value="business"> Without equipment
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="support" id="support-either" value="either"> Either
+              <input type="radio" name="equipment" id="support-either" value="either" checked> Either
             </label>
           </div>
 

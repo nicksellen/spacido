@@ -78,7 +78,7 @@ function ListCtrl($scope, $location, $routeParams, Entries) {
 
     });
   $scope.predicate = '-price';
-  $scope.sliderVal = {first: 30}
+  $scope.sliderVal = {first: 300}
 
   $scope.greaterThanNum = function(expected) {
     return expected.price <= $scope.sliderVal.first;
