@@ -1,0 +1,22 @@
+{
+  "slug": "nice-rehearsal-room",
+  "category" : "rehearsal-rooms",
+  "name": "Nice rehearsal room",
+  "description": "",
+  "location_name": "Tiniusstr. 2, 13089 Berlin",
+  "size_area": 25,
+  "price": 11,
+  "owner": {
+    "name": ""
+  },
+  "rating": 3,
+  "reviews": [
+
+  ],
+  "support": false,
+  "public": true,
+  "equipment": true,
+  "image": "/json/entry/images/nice-rehearsal-room.jpg",
+  "image_thumb": "/json/entry/images/nice-rehearsal-room_thumb.jpg",
+  "image_owner": "/json/entry/images/nice-rehearsal-room_owner.jpg"
+}

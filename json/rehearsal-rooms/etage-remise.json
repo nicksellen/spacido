@@ -1,0 +1,22 @@
+{
+  "slug": "etage-remise",
+  "category" : "rehearsal-rooms",
+  "name": "Etage Remise",
+  "description": "",
+  "location_name": "Waldemarstr. 39, 10999 Berlin",
+  "size_area": 55,
+  "price": 6,
+  "owner": {
+    "name": ""
+  },
+  "rating": 5,
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": false,
+  "equipment": false,
+  "image": "/json/entry/images/etage-remise.jpg",
+  "image_thumb": "/json/entry/images/etage-remise_thumb.jpg",
+  "image_owner": "/json/entry/images/etage-remise_owner.jpg"
+}

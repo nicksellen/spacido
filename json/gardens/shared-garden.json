@@ -1,8 +1,6 @@
 {
   "slug": "Shared garden",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "gardens",
   "name": "Garden with open kitchen",
   "description": "",
   "location_name": "Moritzplatz berlin, Prinzessinnen-Gardens",

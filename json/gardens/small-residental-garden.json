@@ -1,8 +1,6 @@
 {
   "slug": "small-residental-garden",
-  "categories": [
-    "rehearsal"
-  ],
+  "category" : "gardens",
   "name": "Small residential garden",
   "description": "",
   "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",

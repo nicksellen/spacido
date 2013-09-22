@@ -1,0 +1,27 @@
+{
+  "slug": "shared-for-2-days",
+  "category" : "rehearsal-rooms",
+  "name": "Shared for 2 days",
+  "description": "",
+  "location_name": "Dorotheenstr. 12, 10117 Berlin",
+  "size_area": 60,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 5,
+  "reviews": [
+    {
+    },
+    {
+    },
+    {
+    }
+  ],
+  "support": false,
+  "public": false,
+  "equipment": true,
+  "image": "/json/entry/images/shared-for-2-days.jpg",
+  "image_thumb": "/json/entry/images/shared-for-2-days_thumb.jpg",
+  "image_owner": "/json/entry/images/shared-for-2-days_owner.jpg"
+}
