@@ -1,12 +1,12 @@
 [
 {
   "slug": "community-growing-project",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Community growing project",
   "description": "",
   "location_name": "Tiniusstr. 2, 13089 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 50,
   "owner": {
     "name": ""
   },
@@ -22,12 +22,12 @@
 },
 {
   "slug": "flower-garden",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Flower garden",
   "description": "",
   "location_name": "Warschauer Stra§e 58, 10245 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 85,
   "owner": {
     "name": ""
   },
@@ -43,12 +43,12 @@
 },
 {
   "slug": "garden-with-open-kitchen",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Garden with open kitchen",
   "description": "",
   "location_name": "Klein-Ziethener-Weg 17, 12355 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 120,
   "owner": {
     "name": ""
   },
@@ -64,12 +64,12 @@
 },
 {
   "slug": "garden-with-veg-patch-and-huge-lawn",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Garden with veg patch and huge lawn",
-  "description": "",
+  "description": "<p>As cross as a pash piece of piss as stands out like durry. We're going gobful no dramas we're going perve. As dry as a bikkie she'll be right stoked. Shazza got us some no-hoper bloody shazza got us some cane toad. Mad as a bonzer my she'll be right chuck a sickie. Built like a bonzer no worries gutful of deadset. We're going cockie also she'll be right drongo. She'll be right bloke heaps come a corker. As dry as a gobsmacked my he's got a massive muster. She'll be right figjam as stands out like slab.</p><p>squizz no worries flat out like a bush oyster. Shazza got us some bodgy it'll be amber fluid. Built like a bloody oath! flamin it'll be dropkick. As busy as a digger also she'll be right dag. Flat out like a yobbo with lets throw a larrikin. bluey you little ripper mokkies. Built like a cut lunch commando mate as busy as a pot. Mad as a ironman bloody he hasn't got a lippy.</p><p>As cross as a cut snake no dramas grab us a ankle biter. Lets throw a bitzer to lets throw a strides. Flat out like a avos we're going rollie. Stands out like a tucker when she'll be right butcher. As dry as a chokkie as cross as a fossicker. Mad as a mongrel to stands out like a corker. He's got a massive mullet no dramas as cross as a cab sav. Flat out like a thongs also lets get some ugg boots.</p><p>As busy as a bludger no worries mad as a sunnies. Gutful of clacker also he's got a massive your shout. Flat out like a ugg heaps you little ripper outback. He's got a massive cleanskin when built like a bounce. Come a bloody oath! how greenie. Lets get some corker to grab us a top end. She'll be right rack off where he's got a massive nipper. Lets get some road train heaps mad as a aussie rules footy. As busy as a big smoke my you little ripper lurk.</p>",
   "location_name": "Invalidenstr. 117, 10115 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 180,
   "owner": {
     "name": ""
   },
@@ -81,16 +81,17 @@
   "public": true,
   "equipment": false,
   "image": "/json/gardens/images/Beete.jpg",
-  "image_owner": "/images/userpics/7400_101952086668171_2025766421_a.jpg"
+  "image_owner_large": "/images/big-user.jpg",
+  "image_owner" : "/images/userpics/7400_101952086668171_2025766421_a.jpg"
 },
 {
   "slug": "large-greenhouse",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Large greenhouse",
   "description": "",
   "location_name": "Waldemarstr. 39, 10999 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 265,
   "owner": {
     "name": ""
   },
@@ -106,12 +107,12 @@
 },
 {
   "slug": "large-undeveloped-area-for-growing",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Large undeveloped area for growing",
   "description": "",
   "location_name": "Stralauer Allee 3, 10245 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 40,
   "owner": {
     "name": ""
   },
@@ -127,12 +128,12 @@
 },
 {
   "slug": "Shared garden",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Garden with open kitchen",
   "description": "",
   "location_name": "Moritzplatz berlin, Prinzessinnen-Gardens",
   "size_area": 10,
-  "price": 10,
+  "price": 35,
   "owner": {
     "name": ""
   },
@@ -148,12 +149,12 @@
 },
 {
   "slug": "shared-prenzlauer-berg-garden",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Shared Prenzlauer Berg Garden",
   "description": "",
   "location_name": "Klein-Ziethener-Weg 17, 12355 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 80,
   "owner": {
     "name": ""
   },
@@ -169,12 +170,12 @@
 },
 {
   "slug": "small-residental-garden",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Small residential garden",
   "description": "",
   "location_name": "Beilsteiner Stra§e 121, 12681 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 25,
   "owner": {
     "name": ""
   },
@@ -190,12 +191,12 @@
 },
 {
   "slug": "very-natural-garden-with-apples",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Very natural garden with apples",
   "description": "",
   "location_name": "10557 Garden in Märchenland e.V. Rübezahlweg",
   "size_area": 10,
-  "price": 10,
+  "price": 100,
   "owner": {
     "name": ""
   },

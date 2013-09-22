@@ -1,11 +1,11 @@
 {
   "slug": "community-growing-project",
-  "category" : "gardens",
+  "category" : "garden",
   "name": "Community growing project",
   "description": "",
   "location_name": "Tiniusstr. 2, 13089 Berlin",
   "size_area": 10,
-  "price": 10,
+  "price": 50,
   "owner": {
     "name": ""
   },

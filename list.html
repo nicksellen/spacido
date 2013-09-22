@@ -48,8 +48,8 @@
 
       <div class="row filter filter-price">
         <div class="col-md-12">
-          <h3>Price per hour</h3>
-          <input type="range" name="points" min="1" max="60" ng-model="sliderVal.first">
+          <h3>Price</h3>
+          <input type="range" name="points" min="1" max="300" ng-model="sliderVal.first">
           {{sliderVal.first}} &euro;
         </div>
       </div>
@@ -172,8 +172,8 @@
 
                     <span class="price">{{ entry.price }}&euro;</span><br />
 
-                    <span class="price-unit" ng-switch="entryType">
-                      <span ng-switch-when="gardens">per season</span>
+                    <span class="price-unit" ng-switch="category">
+                      <span ng-switch-when="garden">per season</span>
                       <span ng-switch-default>per hour</span>
                     </span>
                   </div>

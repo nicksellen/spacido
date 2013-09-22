@@ -1,5 +1,5 @@
 puts '['
-data = Dir.glob('json/gardens/*.json').map do |entry|
+data = Dir.glob('json/garden/*.json').map do |entry|
   File.read(entry)
 end.join(",\n")
 

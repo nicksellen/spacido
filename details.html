@@ -5,33 +5,28 @@
 
   <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-md-8">
       
       <div class="row">
         <div class="col-md-12">
-          <h1>{{ entry.name }}</h1>
+          <h1 class="name">{{ entry.name }}</h1>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 location">
           <span>{{ entry.location_name }}</span>
-          - <span>{{ entry.size_area }}</span>
+          - <span>{{ entry.size_area }} m&sup2;</span>
         </div>
       </div>
 
     </div>
 
     <div class="col-md-4">
-      <ul class="pull-right actions">
+      <div class="actions">
         <button type="button" class="btn btn-default btn-lg">Add to wish list</button>
         <button type="button" class="btn btn-success btn-lg">Book now</button>
-      </ul>
-    </div>
-
-    <div class="col-md-1">
-      <div class="pull-right">
-        <span class="price">{{ entry.price }}&euro;</span>
+        <div class="pull-right price">{{ entry.price }} &euro;</div>
       </div>
     </div>
 
@@ -48,7 +43,9 @@
     <div class="col-md-8">
 
       <h2>Description</h2>
-      {{ entry.description }}
+      <div class="description">
+        <p>As cross as a pash piece of piss as stands out like durry. We're going gobful no dramas we're going perve. As dry as a bikkie she'll be right stoked. Shazza got us some no-hoper bloody shazza got us some cane toad. Mad as a bonzer my she'll be right chuck a sickie. Built like a bonzer no worries gutful of deadset. We're going cockie also she'll be right drongo. She'll be right bloke heaps come a corker. As dry as a gobsmacked my he's got a massive muster. She'll be right figjam as stands out like slab.</p><p>squizz no worries flat out like a bush oyster. Shazza got us some bodgy it'll be amber fluid. Built like a bloody oath! flamin it'll be dropkick. As busy as a digger also she'll be right dag. Flat out like a yobbo with lets throw a larrikin. bluey you little ripper mokkies. Built like a cut lunch commando mate as busy as a pot. Mad as a ironman bloody he hasn't got a lippy.</p><p>As cross as a cut snake no dramas grab us a ankle biter. Lets throw a bitzer to lets throw a strides. Flat out like a avos we're going rollie. Stands out like a tucker when she'll be right butcher. As dry as a chokkie as cross as a fossicker. Mad as a mongrel to stands out like a corker. He's got a massive mullet no dramas as cross as a cab sav. Flat out like a thongs also lets get some ugg boots.</p><p>As busy as a bludger no worries mad as a sunnies. Gutful of clacker also he's got a massive your shout. Flat out like a ugg heaps you little ripper outback. He's got a massive cleanskin when built like a bounce. Come a bloody oath! how greenie. Lets get some corker to grab us a top end. She'll be right rack off where he's got a massive nipper. Lets get some road train heaps mad as a aussie rules footy. As busy as a big smoke my you little ripper lurk.</p>
+      </div>
 
       <h2>Availability</h2>
       <p>A nice pretty calendar</p>
@@ -121,7 +118,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <img src="{{ entry.image_owner }}" style="width: 100%;" class="main-image"></img>
+          <img src="{{ entry.image_owner_large }}" style="width: 100%;" class="main-image"></img>
         </div>
       </div>
 
