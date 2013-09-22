@@ -1,0 +1,23 @@
+{
+  "slug": "very-natural-garden-with-apples",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Very natural garden with apples",
+  "description": "",
+  "location_name": "10557 Garden in Märchenland e.V. Rübezahlweg",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 3,
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": true,
+  "equipment": true,
+  "image": "/json/gardens/images/huge-garden.jpg",
+  "image_owner": "/images/userpics/479851_10100157654326676_66280086_a.jpg"
+}

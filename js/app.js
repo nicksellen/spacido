@@ -2,7 +2,7 @@ angular.module('project', ['ng', 'ngResource', 'ui.slider']).
 
   factory('Entries', function($resource) {
     return $resource(
-        '/json/entries.json'
+        '/json/:type.json'
     );
   }).
 
@@ -13,7 +13,7 @@ angular.module('project', ['ng', 'ngResource', 'ui.slider']).
   config(function($routeProvider) {
     $routeProvider.
       when('/', { controller: IndexCtrl, templateUrl: 'home.html'}).
-      when('/search', { controller: ListCtrl, templateUrl: 'list.html'}).
+      when('/search/:type', { controller: ListCtrl, templateUrl: 'list.html'}).
       when('/details/:slug', { controller: DetailsController, templateUrl: 'details.html'}).
       otherwise({redirectTo:'/'});
   });
@@ -21,8 +21,9 @@ angular.module('project', ['ng', 'ngResource', 'ui.slider']).
 function IndexCtrl($scope) {
 }
  
-function ListCtrl($scope, Entries) {
-  $scope.entries = Entries.query();
+function ListCtrl($scope, $location, $routeParams, Entries) {
+  console.log('listing things of type', $routeParams.type);
+  $scope.entries = Entries.query({ type: $routeParams.type });
   $scope.predicate = '-price';
   $scope.sliderVal = {first: 30}
   $scope.greaterThanNum = function(expected) {

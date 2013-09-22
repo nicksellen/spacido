@@ -1,0 +1,23 @@
+{
+  "slug": "shared-prenzlauer-berg-garden",
+  "categories": [
+    "rehearsal"
+  ],
+  "name": "Shared Prenzlauer Berg Garden",
+  "description": "",
+  "location_name": "Klein-Ziethener-Weg 17, 12355 Berlin",
+  "size_area": 10,
+  "price": 10,
+  "owner": {
+    "name": ""
+  },
+  "rating": 3,
+  "reviews": [
+
+  ],
+  "support": true,
+  "public": true,
+  "equipment": true,
+  "image": "/json/gardens/images/1275257641_a79be53f39_o.jpg",
+  "image_owner": "/images/userpics/578824_10101115331793048_1961877179_s.jpg"
+}
