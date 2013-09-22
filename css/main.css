@@ -71,7 +71,11 @@
 }
 
 .findyourspace {
+  /*
   background: no-repeat url("/images/workshop.jpg");
+  background: no-repeat url("/images/bg-garden.jpg");
+  */
+  background: no-repeat url("/images/bg-rehearsal-room.jpg");
   height: 600px;
   margin-top: 10px;
   margin-bottom: 30px;
